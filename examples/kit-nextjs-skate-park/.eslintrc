@@ -23,6 +23,12 @@
         "caughtErrorsIgnorePattern": "."
       }
     ],
+"prettier/prettier": [
+      "warn",
+      {
+        "endOfLine": "auto"
+      }
+    ],
     "@typescript-eslint/no-explicit-any": "error",
     "jsx-quotes": ["error", "prefer-double"]
   }
